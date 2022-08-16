@@ -1,0 +1,115 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  font-size: 24px;
+  color: #333333;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: wrap;
+  font-size: 30px;
+}
+
+.image-section {
+  padding: 50px;
+  flex: 50%;
+}
+
+.text-section {
+  padding: 50px;
+  flex: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+
+.top {
+  color: #333333;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+}
+
+.middle {
+  color: #4f4f4f;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  width: 50%;
+}
+
+.bottom {
+  background-color: #333333;
+  border: none;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 40px;
+  padding: 20px 38px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+footer {
+  /* created by username - devChallenges.io */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
+  margin-top: 100px;
+}
+
+
+/* Responsive layout for mobile*/
+@media (max-width: 480px) {
+
+  .flex-container {
+    padding: 0px;
+  }
+
+  .text-section {
+    padding: 5px;
+    flex: 50%;
+  }
+
+  .image-section,
+  .text-section {
+    flex: 100%;
+  }
+
+  .head {
+    margin-left: 10px;
+  }
+
+  .middle {
+    width: 100%;
+  }
+
+}
