@@ -6,11 +6,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/meetmarvelous/404_not_found_page">
+    <a href="https://marvelbyte404.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://marvelbyte404.netlify.app/">
+    <a href="https://github.com/meetmarvelous/404_not_found_page">
       Solution
     </a>
     <span> | </span>
